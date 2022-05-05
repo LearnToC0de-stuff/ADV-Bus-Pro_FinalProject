@@ -1,0 +1,40 @@
+@page
+@model ADV_Bus_Pro_FinalProject_1.Pages.Characters.AddWeaponModel
+
+@{
+    ViewData["Title"] = "Add Weapon";
+}
+
+<h1>Create</h1>
+
+<h4>Weapon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Weapon.CharacterId" class="control-label"></label>
+                <select asp-for="Weapon.CharacterId" asp-items="Model.CharactersDropDown" class="form-control">
+                    <option value="">--Select Character--</option> 
+                </select>
+                <span asp-validation-for="Weapon.CharacterId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weapon.WeaponName" class="control-label"></label>
+                <input asp-for="Weapon.WeaponName" class="form-control" />
+                <span asp-validation-for="Weapon.WeaponName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Weapon" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
