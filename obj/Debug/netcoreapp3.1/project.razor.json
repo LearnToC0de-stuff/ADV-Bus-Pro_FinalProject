@@ -14437,6 +14437,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/AddWeapon.cshtml",
+      "TargetPath": "Pages\\Characters\\AddWeapon.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
