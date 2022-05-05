@@ -167,3 +167,4 @@
 /Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/obj/Debug/netcoreapp3.1/Razor/Pages/Characters/Details.cshtml.g.cs
 /Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/obj/Debug/netcoreapp3.1/Razor/Pages/Characters/Edit.cshtml.g.cs
 /Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/obj/Debug/netcoreapp3.1/Razor/Pages/Characters/Index.cshtml.g.cs
+/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/obj/Debug/netcoreapp3.1/Razor/Pages/Characters/AddWeapon.cshtml.g.cs

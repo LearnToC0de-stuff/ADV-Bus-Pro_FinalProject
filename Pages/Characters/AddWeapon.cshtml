@@ -1,5 +1,5 @@
 @page
-@model ADV_Bus_Pro_FinalProject_1.Pages.Characters.AddWeaponModel
+@model ADV_Bus_Pro_FinalProject_1.Pages.AddWeaponModel
 
 @{
     ViewData["Title"] = "Add Weapon";
@@ -23,6 +23,16 @@
                 <label asp-for="Weapon.WeaponName" class="control-label"></label>
                 <input asp-for="Weapon.WeaponName" class="form-control" />
                 <span asp-validation-for="Weapon.WeaponName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weapon.Damage" class="control-label"></label>
+                <input asp-for="Weapon.Damage" class="form-control" />
+                <span asp-validation-for="Weapon.Damage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weapon.Reach" class="control-label"></label>
+                <input asp-for="Weapon.Reach" class="form-control" />
+                <span asp-validation-for="Weapon.Reach" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Add Weapon" class="btn btn-primary" />

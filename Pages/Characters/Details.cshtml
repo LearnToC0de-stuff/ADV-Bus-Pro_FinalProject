@@ -48,13 +48,13 @@
             @Html.DisplayFor(model => model.Character.Charisma)
         </dd>
     </dl>
-    @foreach (var w in Model.Character.Weapon)
+    @* @if (Model.Character.Weapon != null)
         {
             <dt class="col-sm-2">
                 @Html.DisplayNameFor(model => model.Character.Weapon)
             </dt>
             <dd class="col-sm-1">
-                @Html.DisplayFor(model => w.WeaponName)
+                @Html.DisplayFor(Character.WeaponName)
             </dd>
             <dd class="col-sm-1">
                 @Html.DisplayFor(model => w.Damage)
@@ -62,7 +62,7 @@
             <dd class="col-sm-1">
                 @Html.DisplayFor(model => w.Range)
             </dd>
-        }
+        } *@
 </div>
 <div>
     <a asp-page="./Edit" asp-route-id="@Model.Character.CharacterId">Edit</a> |
