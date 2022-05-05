@@ -48,19 +48,19 @@
             @Html.DisplayFor(model => model.Character.Charisma)
         </dd>
     </dl>
-    @foreach (var c in Model.Character.Weapon)
+    @foreach (var w in Model.Character.Weapon)
         {
             <dt class="col-sm-2">
                 @Html.DisplayNameFor(model => model.Character.Weapon)
             </dt>
             <dd class="col-sm-1">
-                @Html.DisplayFor(model => c.WeaponName)
+                @Html.DisplayFor(model => w.WeaponName)
             </dd>
             <dd class="col-sm-1">
-                @Html.DisplayFor(model => c.Damage)
+                @Html.DisplayFor(model => w.Damage)
             </dd>
             <dd class="col-sm-1">
-                @Html.DisplayFor(model => c.Range)
+                @Html.DisplayFor(model => w.Range)
             </dd>
         }
 </div>
