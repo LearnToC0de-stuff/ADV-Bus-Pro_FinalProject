@@ -27,13 +27,15 @@ namespace ADV_Bus_Pro_FinalProject_1.Pages.Characters
                 return NotFound();
             }
 
-            Character = await _context.Character.FirstOrDefaultAsync(m => m.CharacterId == id);
+            Character = await _context.Character.Include(c => c.Weapon).FirstOrDefaultAsync(m => m.CharacterId == id);
 
             if (Character == null)
             {
                 return NotFound();
             }
             return Page();
+            // mine
         }
+
     }
 }
