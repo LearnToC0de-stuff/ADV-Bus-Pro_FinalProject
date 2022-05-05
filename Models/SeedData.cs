@@ -404,6 +404,10 @@ namespace FinalProject.Models
                     }
                 );
                 context.SaveChanges();
+                // dotnet aspnet-codegenerator razorpage -m Character -dc CharacterContext -udl -outDir Pages/Characters --referenceScriptLibraries
+                // dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.5
+                // dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 3.1.5
+
             }
         }
 

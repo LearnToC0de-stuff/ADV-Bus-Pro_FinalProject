@@ -14412,8 +14412,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Index.cshtml",
+      "TargetPath": "Pages\\Characters\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Details.cshtml",
+      "TargetPath": "Pages\\Characters\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Delete.cshtml",
+      "TargetPath": "Pages\\Characters\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14432,8 +14447,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Create.cshtml",
+      "TargetPath": "Pages\\Characters\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Edit.cshtml",
+      "TargetPath": "Pages\\Characters\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

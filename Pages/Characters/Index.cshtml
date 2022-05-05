@@ -1,0 +1,66 @@
+@page
+@model ADV_Bus_Pro_FinalProject_1.Pages.Characters.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Character[0].FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Character[0].LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Character[0].Strength)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Character[0].Dexterity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Character[0].Intelligence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Character[0].Charisma)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Character) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Strength)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dexterity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intelligence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Charisma)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CharacterId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CharacterId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CharacterId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
