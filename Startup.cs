@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using FinalProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ADV_Bus_Pro_FinalProject_1
 {
@@ -24,6 +26,9 @@ namespace ADV_Bus_Pro_FinalProject_1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<CharacterContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("CharacterContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

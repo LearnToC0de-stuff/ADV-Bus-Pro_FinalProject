@@ -8,7 +8,7 @@ namespace FinalProject.Models
 {
     public class Character
     {
-        public int ProfessorId { get; set; } // Primary Key
+        public int CharacterId { get; set; } // Primary Key
         [Required]
         [StringLength(20, MinimumLength = 2)]
         public string FirstName { get; set; }
