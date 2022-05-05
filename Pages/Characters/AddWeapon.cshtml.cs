@@ -29,6 +29,7 @@ namespace ADV_Bus_Pro_FinalProject_1.Pages
         public void OnGet()
         {
             CharactersDropDown = new SelectList(_context.Character.ToList(), "CharacterId", "FirstName");
+            
         }
 
         public IActionResult OnPost()

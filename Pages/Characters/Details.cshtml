@@ -48,21 +48,26 @@
             @Html.DisplayFor(model => model.Character.Charisma)
         </dd>
     </dl>
-    @* @if (Model.Character.Weapon != null)
-        {
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Character.Weapon)
-            </dt>
-            <dd class="col-sm-1">
-                @Html.DisplayFor(Character.WeaponName)
-            </dd>
-            <dd class="col-sm-1">
-                @Html.DisplayFor(model => w.Damage)
-            </dd>
-            <dd class="col-sm-1">
-                @Html.DisplayFor(model => w.Range)
-            </dd>
-        } *@
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Character.Weapon.WeaponName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Character.Weapon.WeaponName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Character.Weapon.Damage)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Character.Weapon.Damage)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Character.Weapon.Reach)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Character.Weapon.Reach)
+        </dd>
+    </dl>
 </div>
 <div>
     <a asp-page="./Edit" asp-route-id="@Model.Character.CharacterId">Edit</a> |
