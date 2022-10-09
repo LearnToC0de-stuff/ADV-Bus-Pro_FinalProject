@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/ADV-Bus-Pro_FinalProject-1.csproj",
+  "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/ADV-Bus-Pro_FinalProject-1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,68 +14402,68 @@
   "RootNamespace": "ADV_Bus_Pro_FinalProject_1",
   "Documents": [
     {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Index.cshtml",
-      "TargetPath": "Pages\\Characters\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Shared/_Layout.cshtml",
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Details.cshtml",
-      "TargetPath": "Pages\\Characters\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Delete.cshtml",
-      "TargetPath": "Pages\\Characters\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/AddWeapon.cshtml",
-      "TargetPath": "Pages\\Characters\\AddWeapon.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Create.cshtml",
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Characters/Create.cshtml",
       "TargetPath": "Pages\\Characters\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/_ViewStart.cshtml",
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Characters/Details.cshtml",
+      "TargetPath": "Pages\\Characters\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Characters/Edit.cshtml",
+      "TargetPath": "Pages\\Characters\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Characters/Index.cshtml",
+      "TargetPath": "Pages\\Characters\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/Pages/Characters/Edit.cshtml",
-      "TargetPath": "Pages\\Characters\\Edit.cshtml",
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Characters/Delete.cshtml",
+      "TargetPath": "Pages\\Characters\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/Pages/Characters/AddWeapon.cshtml",
+      "TargetPath": "Pages\\Characters\\AddWeapon.cshtml",
       "FileKind": "mvc"
     }
   ],

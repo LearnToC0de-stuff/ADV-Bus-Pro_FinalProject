@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/ADV-Bus-Pro_FinalProject-1.csproj": {}
+    "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/ADV-Bus-Pro_FinalProject-1.csproj": {}
   },
   "projects": {
-    "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/ADV-Bus-Pro_FinalProject-1.csproj": {
+    "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/ADV-Bus-Pro_FinalProject-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/ADV-Bus-Pro_FinalProject-1.csproj",
+        "projectUniqueName": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/ADV-Bus-Pro_FinalProject-1.csproj",
         "projectName": "ADV-Bus-Pro_FinalProject-1",
-        "projectPath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/ADV-Bus-Pro_FinalProject-1.csproj",
+        "projectPath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/ADV-Bus-Pro_FinalProject-1.csproj",
         "packagesPath": "/Users/sawyermatteson/.nuget/packages/",
-        "outputPath": "/Users/sawyermatteson/Desktop/Github/Adv Bus Pro/ADV-Bus-Pro_FinalProject-1/obj/",
+        "outputPath": "/Users/sawyermatteson/Desktop/Github/ADV-Bus-Pro_FinalProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sawyermatteson/.nuget/NuGet/NuGet.Config"
@@ -63,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +75,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[3.1.22, 3.1.22]"
+              "version": "[3.1.29, 3.1.29]"
             }
           ],
           "frameworkReferences": {
@@ -85,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
